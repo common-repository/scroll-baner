@@ -1,0 +1,23 @@
+<?php
+
+/* LANGUAGE FILE PL_PL - POLSKI */
+
+define("SCRBAN_SUBNAME","Scroll Baner");
+define("SCRBAN_SUBTITLE","Konfiguracja Scroll Banera");
+define("SCRBAN_MESSAGE","Ustawienia Scroll Banera zostały zapisane");
+define("SCRBAN_NAME1","Nazwa identyfikatora kontenera:");
+define("SCRBAN_DESC1"," (musi być zgodny z ID kontenera w szablonie)");
+define("SCRBAN_NAME2","Wysokość kontenera:");
+define("SCRBAN_DESC2"," (taka jak wysokość wszystkich plików graficznych)");
+define("SCRBAN_NAME3","Opóźnienie ruchu banera:");
+define("SCRBAN_DESC3"," (im większa wartość tym wolniejsza animacja - najlepiej: 40)");
+define("SCRBAN_NAME4","Dane warstw:");
+define("SCRBAN_DESC4","Warstwy układane są od najdalszej do najbliższej. Szybkość ruchu pierwszej warstwy powinna być najniższa a ostatniej najwyższa.");
+define("SCRBAN_NAME5","Plik graficzny warstwy ");
+define("SCRBAN_NAME6","Szybkość ruchu warstwy:");
+define("SCRBAN_DESC6"," (1-100 - im większa wartość tym szybszy ruch warstwy)");
+define("SCRBAN_NAME7"," kasowanie pliku graficznego");
+define("SCRBAN_SUBMIT","Aktualizuj konfigurację");
+define("SCRBAN_PREV","Podgląd grafiki");
+
+?>

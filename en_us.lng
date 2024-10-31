@@ -1,0 +1,23 @@
+<?php
+
+/* LANGUAGE FILE EN_US - ENGLISH */
+
+define("SCRBAN_SUBNAME","Scroll Baner");
+define("SCRBAN_SUBTITLE","Scroll Banner Configuration");
+define("SCRBAN_MESSAGE","Scroll Banner settings are saved");
+define("SCRBAN_NAME1","Name of the container ID:");
+define("SCRBAN_DESC1"," (must be compatible with the container ID in the template)");
+define("SCRBAN_NAME2","Height of container:");
+define("SCRBAN_DESC2"," (such as the height of all image files)");
+define("SCRBAN_NAME3","Banner traffic delay:");
+define("SCRBAN_DESC3"," (the higher the value, the slower the animation - the best: 40)");
+define("SCRBAN_NAME4","Data layers:");
+define("SCRBAN_DESC4","The layers are stacked on farthest to the nearest. The speed of movement of the first layer should be the lowest and the highest final.");
+define("SCRBAN_NAME5","Layer a graphic file ");
+define("SCRBAN_NAME6","Layer traffic speed:");
+define("SCRBAN_DESC6"," (1-100 - the higher the number, the faster the movement Layer)");
+define("SCRBAN_NAME7"," Deleting an image file");
+define("SCRBAN_SUBMIT","Update configuration");
+define("SCRBAN_PREV","Preview Image");
+
+?>

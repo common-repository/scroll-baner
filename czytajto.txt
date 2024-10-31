@@ -1,0 +1,33 @@
+=== Scroll Baner ===
+Contributors: Andrzej 'andy' Kidaj
+Tags: scroll, baner, header
+Requires at least: 3.0
+Tested up to: 3.4.2
+Stable tag: 2.5.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Efektowny, wielowarstwowy, animowany baner do u¿ycia w nag³ówku strony.
+
+== Description ==
+
+Scroll Baner pozwala na ³atw¹ animacjê kilku warstw grafik w nag³ówku strony (tak jak na stronie http://ad3.eu). Jako ¿e ka¿da warstaw mo¿e siê poruszaæ z inn¹ szybkoœci¹ otrzymujemy efekt peudo-3D.
+Do ka¿dej warstwy trzeba przygotowaæ odpowiedni plik graficzny (bezszwowy czyli koniec musi idealnie pasowaæ do pocz¹tku) w formacie PNG (ze wzglêdu na przezroczystoœci). Ka¿da grafika mo¿e mieæ ró¿n¹ szerokoœæ, ale powinny mieæ identyczn¹ wysokoœæ. Grafiki wczytujemy do systemu w zak³adce konfiguratora, ustawiamy kilka dodatkowych parametrów, w szablonie strony dodajemy w wybranym miejscu <div id="nazwa"></div> i gotowe :)
+Wczytane pliki mo¿na podejrzeæ (pojawi siê ikonka oka) lub skasowaæ, jeœli dana warstwa jest zbêdna (nie bêdzie dodawana do kontenera).
+
+== Installation ==
+
+1. Wgranie pakietu Scroll Baner do folderu '/wp-content/plugins/' WordPressa i w³¹czenie wtyczki.
+2. Przygotowanie odpowiednich grafik w formacie PNG - o dowolnej szerokoœci ale takiej samej wysokoœci ka¿dy.
+3. Utworzenie w dowolnie wybranym miejscu szablonu kontenera o wybranej nazwie: <div id="nazwa_kontenera"></div>
+4. Wczytanie grafik do systemu i ustawienie dodatkowych parametrów:
+	- Nazwa identyfikatora kontenera - wybrana nazwa kontenera zawieraj¹cego baner.
+	- Wysokoœæ kontenera - wysokoœæ plików graficznych.
+	- OpóŸnienie ruchu banera - tak naprawdê jest to pauza miêdzy kolejnymi fazami ruchu. Im wiêksza wartoœæ, tym wolniejsza (i bardziej skokowa) animacja. Zalecana wartoœæ to 40.
+	- Plik graficzny warstwy X - tu wczytujemy odpowiedni plik z grafik¹. Warstwa pierwsza to ta najbardziej oddalona, która powinna poruszaæ siê najwolniej, ostatnia jest najbli¿ej.
+	- Szybkoœæ ruchu warstwy - im wiêksza wartoœæ tym szybszy ruch. Zaleca siê nieprzekraczanie wartoœæi 100.
+
+== Changelog ==
+
+= 1.0 =
+Pierwsza stabilna wersja pluginu.
